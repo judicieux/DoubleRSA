@@ -48,7 +48,7 @@ On a aussi 2 exponents allignés, facile à distinguer.<br/>
 La première chose qu'on peut se demander c'est: Comment recover ```r``` et sa clé privée à partir des valeurs qu'on a?<br/>
 Et bien figurez vous que c'est pas si compliqué que ç'en a l'air.<br/>
 ### Test
-Essayons de reproduire la composition des modulos avec des petits nombres, pour reconnaître ```r``` et s'assurer de la formula.<br/>
+Essayons de reproduire la composition des modulos avec des petits nombres pour mieux reconnaître ```r``` et s'assurer de la formula.<br/>
 ```py
 >>> n1 = 5 * 4
 >>> n2 = 5 * 4 * 9
