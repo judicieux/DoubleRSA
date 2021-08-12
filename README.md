@@ -65,7 +65,7 @@ On peut décomposer ```r``` de ```n2``` en divisant ```n2``` par ```n1```.<br/>
 9985219281420631491950957851274022801091454644758524755532672893128337056039820257283811157323428103614562402318170808820186779244337280644056842166257623
 ```
 On a plus qu'à recover la clé privée de ```r```.<br/>
-Pour ce faire on va calculer l'inverse modulaire de ```e2```:<br/>
+Pour ce faire on va calculer l'inverse modulaire de ```e2``` soit ```e2^-1 (mod r-1)```:<br/>
 ```py
 >>> from gmpy2 import next_prime
 >>> e1 = 650759
@@ -76,7 +76,7 @@ Pour ce faire on va calculer l'inverse modulaire de ```e2```:<br/>
 1956763019452193466224973226575382215213864900450580760830497181057219839150763733460721502148999119138446064654196192974704936830407170049672056117278595
 ```
 ### Flag
-On peut déchiffrer le flag.<br/>
+On peut déchiffrer le flag avec ```(c2 (mod r))^-1(mod r)```.<br/>
 ```py
 >>> from Crypto.Util.number import long_to_bytes
 >>> d = 1956763019452193466224973226575382215213864900450580760830497181057219839150763733460721502148999119138446064654196192974704936830407170049672056117278595
