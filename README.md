@@ -45,7 +45,8 @@ Essayons de reproduire la multiplication des nombres premiers avec des petits no
 ```py
 >>> n1 = 5 * 4
 >>> n2 = 5 * 4 * 9
->>> c = n2 // n1
->>> print(c)
+>>> r = n2 // n1
+>>> print(r)
 9
 ```
+On peut isoler ```r``` en divisant le modulus qu'il compose par celui qu'il n'a pas.<br/>
