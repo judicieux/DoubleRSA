@@ -49,4 +49,4 @@ Essayons de reproduire la multiplication des nombres premiers avec des petits no
 >>> print(r)
 9
 ```
-On peut isoler ```r``` en divisant le modulus qu'il compose par celui qu'il n'a pas.<br/>
+On peut isoler ```r``` de ```n2``` en divisant ```n2``` par ```n1```, ```n2``` qui je rappelle est supérieur à ```n1```.<br/>
