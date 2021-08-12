@@ -37,5 +37,15 @@ print("c2 = {}".format(c2))
 ```c2```: Second ciphertext<br/>
 ## Soluce
 En effet, on a deux modulus dont un qui est composé par 3 nombres premiers.<br/>
-On a aussi 2 exponents nombres premiers allignés.<br/>
+On a aussi 2 exponents allignés, pas compliqué à comprendre.<br/>
 La première chose qu'on peut se demander: Comment recover ```r``` et sa clé privée à partir des valeurs qu'on a?<br/>
+Et bien figurez vous que c'est pas si compliqué que ç'en a l'air.<br/>
+### Test
+Essayons de reproduire la multiplication des nombres premiers avec des petits nombres.<br/>
+```py
+>>> n1 = 5 * 4
+>>> n2 = 5 * 4 * 9
+>>> c = n2 // n1
+>>> print(c)
+9
+```
