@@ -44,7 +44,7 @@ c2 = 103382191686428840525776087895673173868360626341667538905923105122127252993
 ```c2```: Second ciphertext<br/>
 ## Soluce
 En effet, on a deux modulos dont un qui est composé de 3 nombres premiers.<br/>
-On a aussi 2 exponents allignés, pas compliqué à comprendre.<br/>
+On a aussi 2 exponents allignés, facile à distinguer.<br/>
 La première chose qu'on peut se demander: Comment recover ```r``` et sa clé privée à partir des valeurs qu'on a?<br/>
 Et bien figurez vous que c'est pas si compliqué que ç'en a l'air.<br/>
 ### Test
