@@ -36,7 +36,7 @@ print("c2 = {}".format(c2))
 ```c1```: First ciphertext<br/>
 ```c2```: Second ciphertext<br/>
 ## Soluce
-En effet, on a deux modulus dont un qui est composé par 3 nombres premiers.<br/>
+En effet, on a deux modulus dont un qui est composé de 3 nombres premiers.<br/>
 On a aussi 2 exponents allignés, pas compliqué à comprendre.<br/>
 La première chose qu'on peut se demander: Comment recover ```r``` et sa clé privée à partir des valeurs qu'on a?<br/>
 Et bien figurez vous que c'est pas si compliqué que ç'en a l'air.<br/>
